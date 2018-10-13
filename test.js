@@ -87,4 +87,11 @@ assertEqual(provideAverage([2,2]),2);
 assertEqual(provideAverage([2,3]),2.5);
 assertEqual(provideAverage([2,4,8]),4.7);
 
+//-----------------(test for map length of names)------------------//
 
+
+const mapLengths = lib.mapLengths;
+assert(mapLengths(["k"]),[1]);
+assert(mapLengths(["kanishka"]),[8]);
+assert(mapLengths(["kanishka", "dheeru"]),[8,6]);
+assert(mapLengths(["kanishka", "dheeru", "naman"]),[8,6,5]);
