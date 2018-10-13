@@ -81,11 +81,10 @@ assertEqual(findLowestNum([2,10,1,555]),1);
 
 //-----------------(test for find average of numbers)------------//
 
-//const provideAverage = lib.provideAverage;
-//assertEqual(provideAverage([2]),2);
-//assertEqual(provideAverage([2,2]),2);
-//assertEqual(provideAverage([2,3]),2.5);
-//assertEqual(provideAverage([2,4,8]),2);
-//assertEqual(provideAverage([2,10,1,555]),1);
+const provideAverage = lib.provideAverage;
+assertEqual(provideAverage([2]),2);
+assertEqual(provideAverage([2,2]),2);
+assertEqual(provideAverage([2,3]),2.5);
+assertEqual(provideAverage([2,4,8]),4.7);
 
 
